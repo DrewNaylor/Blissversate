@@ -10,3 +10,9 @@ Something I don't know how I'll implement it is to allow users to sign in with t
 Also for instances that don't allow commands, should it just not let command comments federate instances that don't allow them? No idea.
 
 Like Disqus, there will be a "Recommend" button for discussions that will work like boosting on Mastodon. It'll federate to other instances that way. Should upvotes on comments work as a boost too? Maybe I should check Kbin for that, as I need to know how to also handle downvotes.
+
+I need to look at how PeerTube handles comments, as I think it has like and dislike buttons. If not, maybe Kbin would help me figure it out.
+
+Just remembered that I need to ensure replies are threaded in such a way that they don't appear like they do on Mastodon just sitting outside the original reply they were replying to and telling you nothing about what post they were a reply to unless you click them.
+
+Should comments be unlisted with an option to switch it to direct message mode? I think having the choice for them to be public would be a bit much. Followers only could be nice, then also have an option to allow or deny a follower request like on Mastodon (all those bots on Disqus are annoying).
